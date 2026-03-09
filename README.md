@@ -1,30 +1,48 @@
 # Student Data Analysis
 
-A simple Python project for analyzing student scores.
+一个使用 **Python + Pandas** 实现的学生成绩数据分析项目。
 
-## Features
+## 项目介绍
 
-- Read student data from CSV
-- Calculate average score
-- Find highest and lowest score
-- Rank students by score
-- Generate score distribution chart
+本项目用于对学生成绩数据进行分析，包括：
 
-## Technologies
+- 数据读取
+- 数据清洗
+- 成绩统计
+- 平均分计算
+- 可视化分析（后续可扩展）
 
-- Python
-- Pandas
-- Matplotlib
+适合用于：
 
-## Run
+- Python 数据分析练习
+- Pandas 入门学习
+- 数据处理基础项目
+
+---
+
+## 项目结构
+
+
+student-data-analysis
+│
+├── data/
+│ └── students.csv # 学生数据
+│
+├── src/
+│ └── analysis.py # 数据分析代码
+│
+├── README.md # 项目说明
+└── requirements.txt # 依赖库
+
+
+---
+
+## 环境要求
+
+- Python 3.8+
+- pip
+
+安装依赖：
 
 ```bash
-python3 analysis.py
-
-Output
-
-Score statistics
-
-Top 3 students
-
-Score distribution chart
+pip install pandas
